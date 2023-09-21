@@ -9,8 +9,7 @@ class MyTile extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Container(
         height: 78,
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(8), color: Colors.grey[200]),
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), color: Colors.pink),
       ),
     );
   }

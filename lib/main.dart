@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.green),
-      home: ResponsiveLayout(
-        mobileBody: const MobileScaffold(),
-        tabletBody: const TabletScaffold(),
-        desktopBody: const DesktopScaffold(),
+      home: const ResponsiveLayout(
+        mobileBody: MobileScaffold(),
+        tabletBody: TabletScaffold(),
+        desktopBody: DesktopScaffold(),
       ),
     );
   }

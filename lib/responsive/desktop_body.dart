@@ -36,11 +36,9 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
                       width: double.infinity,
                       child: GridView.builder(
                         itemCount: 4,
-                        gridDelegate:
-                            const SliverGridDelegateWithFixedCrossAxisCount(
-                                crossAxisCount: 4),
+                        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 4),
                         itemBuilder: (context, index) {
-                          return MyBox();
+                          return const MyBox();
                         },
                       ),
                     ),
@@ -68,7 +66,7 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
                       height: 400,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
-                        color: Colors.grey[400],
+                        color: Colors.green,
                       ),
                     ),
                   ),
@@ -79,7 +77,7 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
                       child: Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(8),
-                          color: Colors.grey[200],
+                          color: Colors.red,
                         ),
                       ),
                     ),
