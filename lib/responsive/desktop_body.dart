@@ -66,7 +66,7 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
                       height: 400,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
-                        color: Colors.green,
+                        color: Colors.indigo,
                       ),
                     ),
                   ),
